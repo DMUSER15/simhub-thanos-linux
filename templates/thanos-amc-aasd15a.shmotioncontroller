@@ -1,0 +1,17 @@
+{
+  "Output": {
+    "ImportType": 0,
+    "Comments": null,
+    "CustomName": null,
+    "ShowOriginalName": true,
+    "Settings": {
+      "SerialPort": "COM69"
+    },
+    "AutomaticOrigin": null,
+    "ReviewManager": {
+      "AvailableReviewKeys": "Controller_Connection, Controller_Mapping",
+      "BypassReviewKeys": []
+    },
+    "TypeName": "ThanosAMCControllerOutput"
+  }
+}

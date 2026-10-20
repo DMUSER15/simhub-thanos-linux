@@ -1,0 +1,2 @@
+# SimHub exports use Windows line endings: keep the template byte-for-byte
+*.shmotioncontroller -text
