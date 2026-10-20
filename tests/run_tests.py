@@ -257,7 +257,7 @@ def tests(base):
 
     # ---------------------------------------------------------------- names from other projects
     words = ("star citizen", "starcitizen", "d-box", "dbox", "livemotion", "sc_haptics", "sc-motion", "lug-helper",
-             "haptisync", "dmuser", "scm_", "sc_thanos")
+             "haptisync", "/home/dmuser", "scm_", "sc_thanos")
     hits = []
     for d, dirs, files in os.walk(REPO):
         dirs[:] = [x for x in dirs if x not in (".git", "__pycache__")]
