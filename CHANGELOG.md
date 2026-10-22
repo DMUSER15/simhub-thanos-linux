@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- README: Buy Me a Coffee link and a Support section; `.github/FUNDING.yml` for GitHub's Sponsor button. No code changes.
+
 ## 0.1.1 (2026-10-19)
 
 - Tests no longer see the real process list (env `SIMHUB_THANOS_PROC`, stand-in only). With SimHub open on the test machine, every test `apply` was refused and the run crashed.

@@ -1,5 +1,7 @@
 # simhub-thanos-linux
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-dmuser15-FFDD00?logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/dmuser15)
+
 Connect a **THANOS AMC** motion controller to **SimHub running in Wine on Linux**. The same tool also gives **any USB serial device** (an Arduino, a fan controller, a CH340 or CDC-ACM board) a COM port in SimHub that stays put when USB devices change.
 
 What it does, read-only first and nothing as root:
@@ -103,6 +105,10 @@ python3 simhub_thanos.py simhub [--apply] | list | plan [options] | apply [optio
 | Test stand-ins for /sys, /dev, /etc and the process list | env `SIMHUB_THANOS_SYS_ROOT`, `SIMHUB_THANOS_PROC` (tests only) |
 
 The tool never runs sudo. It never changes anything outside SimHub's prefix, its own config file and `~/simhub-thanos/`. In the prefix it changes only Wine's `Ports` registry key (through the prefix's own `wine reg add`) and `dosdevices/comNN` links.
+
+## Support
+
+This tool is free and stays free. If it saved you an evening with Wine and COM ports, you can [buy me a coffee](https://www.buymeacoffee.com/dmuser15). Bug reports and test results from other distributions and controllers help just as much.
 
 ## Licence
 
